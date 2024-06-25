@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+i,
+p,
+a
+ {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-area{
+    text-align: center;
+    margin-top: 150px;
+}
+.footer-area .footer-text{
+    margin-top: 40px;
+    padding-bottom: 50px;
+}
+.footer-area .footer-text p{
+    color: #a8a8a8;
+    font-family: Poppins;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    line-height: normal;
+}
+@media (max-width:576px) {
+    .footer-area {
+        text-align: center;
+        margin-top: 30px;
+    }
+}
